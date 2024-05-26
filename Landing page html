@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoe Shop</title>
+    <link rel="stylesheet" href="LS.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h1>Welcome to Our Shoe Shop</h1>
+            <p>Find the perfect pair of shoes for any occasion.</p>
+            <button>Shop Now</button>
+        </section>
+        <section id="shop">
+            <h1>Shop Our Collection</h1>
+            <ul>
+                <li>
+                    <img src="shoes1.webp" width="150"
+                    " alt="Shoe 1">
+                    <h2>Shoe 1</h2>
+                    <p>1500rs.</p>
+                    <button>Add to Cart</button>
+                </li>
+                <li>
+                    <img src="shoes2.jpg" width="150" alt="Shoe 2">
+                    <h2>Shoe 2</h2>
+                    <p>1299rs.</p>
+                    <button>Add to Cart</button>
+                </li>
+                <li>
+                    <img src="shoes3.jpg" width="150" alt="Shoe 3">
+                    <h2>Shoe 3</h2>
+                    <p>1899rs.</p>
+                    <button>Add to Cart</button>
+                </li>
+            </ul>
+        </section>
+        <section id="about">
+            <h1>About Us</h1>
+            <p>We are a family-owned shoe shop that has been serving our community for over 20 years. Our mission is to provide high-quality shoes at affordable prices.Our shoes are also suitable for exercising and for daily wear also.</p>
+        </section>
+        <section id="contact">
+            <h1>Contact Us</h1>
+            <form>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <textarea placeholder="Message"></textarea>
+                <button>Send</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
